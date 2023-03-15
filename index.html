@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO Plumbing Services</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <!-- ---Navbar--- -->
+    <div id="navbar">
+        <div class="first">
+            <div class="logo"><img src="logo.png" alt="logo"></div>
+            <div class="logo-name">
+                <h1 class="h-primary">DEMO</h1>
+                <h3 class="h-secondary">Plumbing Services</h3>
+            </div>
+        </div>
+        <div class="second">
+            <nav>
+                <ul>
+                    <li><a href="#home-section">Home</a></li>
+                    <li><a href="#about-section">About Us</a></li>
+                    <li><a href="#services-section">Services</a></li>
+                    <li><a href="#projects-section">Projects</a></li>
+                    <li><a href="#features-section">Features</a></li>
+                    <li><a href="#client-section">Clients</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="last">
+            <div class="btn">Appointment</div>
+        </div>
+    </div>
+
+    <!-- ---Home-Section--- -->
+    <section id="home-section">
+        <div class="home-cont empty"></div>
+        <div class="home-cont home-container ">
+            <div class="home-content">
+                <h1>Schedule a Service</h1>
+                <p>Fill out the form below to get in touch with our team</p>
+            </div>
+            <form action="#" method="post">
+                <div class="form-items">
+                    <label for="name">
+                        <i class="material-icons">person</i>
+                    </label>
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+                <div class="form-items">
+                    <label for="email">
+                        <i class="material-icons">email</i>
+                    </label>
+                    <input type="text" id="email" placeholder="Email">
+                </div>
+                <div class="form-items">
+                    <label for="phone">
+                        <i class="material-icons">phone</i>
+                    </label>
+                    <input type="text" id="phone" placeholder="Phone">
+                </div>
+                <div class="form-items">
+                    <label for="textarea">
+                        <i class="material-icons">description</i>
+                    </label>
+                    <textarea name="textarea" id="textarea" cols="51" rows="5" aria-invalid="false" placeholder="Message"></textarea>
+                </div>
+                <div class="form-items-2">
+                    <h3>Are you an existing customer?</h3>
+                    <div>
+                        <span>
+                            <input type="radio" name="existing-customer" id="no" checked><label for="no">No</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="existing-customer" id="yes"><label for="yes">Yes</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="existing-customer" id="other"><label for="other">Other</label>
+                        </span> 
+                    </div>
+                </div>
+                <div class="btn submit">Submit Information</div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ---About-Section--- -->
+    <section id="about-section">
+        <div class="about-first">
+            <div class="about-photo">
+                <img src="/Plumbing/p5.jpg" alt="plumbing">
+            </div>
+        </div>
+        <div class="about-last">
+            <div class="about-last-top">
+                <h2 class="top-first">We have 25 years</h2>
+                <h2 class="top-second">Experience In This Passion</h2>
+                <p class="top-para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam voluptatum impedit itaque soluta, harum voluptas ratione repudiandae, accusamus iusto ducimus facilis ipsam in praesentium quaerat fugit sed. Dicta, id consequatur? Maiores exercitationem, laudantium asperiores optio corporis consequuntur delectus reiciendis sapiente illum. Illo commodi expedita iste sit modi accusamus aliquam totam quia sunt iusto facilis nesciunt perspiciatis, cum alias quos hic.
+                </p>
+            </div>
+            <div class="about-last-bottom">
+                <div class="about-bottom-first">
+                    <div class="about-icon">
+                        <i class="material-icons">check</i>
+                    </div>
+                    <div class="about-icon-text">
+                        <h3 class="icon-h">We are Trusted Supplier</h3>
+                        <p class="icon-p">Over 25 years</p>
+                    </div>
+                </div>
+                <div class="about-bottom-first">
+                    <div class="about-icon">
+                        <i class="material-icons">mood</i>
+                    </div>
+                    <div class="about-icon-text">
+                        <h3 class="icon-h">Happy to Support</h3>
+                        <p class="icon-p">24/7 support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ---Problem-Section--- -->
+    <section id="problem-section">
+        <div class="problem-first">
+            <div class="box" >
+                <img src="/Plumbing/p1.jpg" alt="image-1" class="box-i" id="i-1" onclick="myF1()">            
+                <img src="/Plumbing/p2.jpg" alt="image-2" class="box-i" id="i-2" onclick="myF2()">            
+                <img src="/Plumbing/p3.jpg" alt="image-3" class="box-i" id="i-3" onclick="myF3()">            
+                <img src="/Plumbing/p4.jpg" alt="image-4" class="box-i" id="i-4" onclick="myF4()">
+                <img src="/Plumbing/bg2.jpg" alt="image-5" class="box-i" id="i-5" onclick="myF5()">
+            </div>
+        </div>
+        <div class="problem-last">
+            <h2 class="top-first p-h-1">We fix all your</h2>
+            <h2 class="top-second p-h-2">Piping Problems</h2>
+            <p class="top-para pr-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam voluptatum impedit itaque soluta, harum voluptas ratione repudiandae, accusamus iusto ducimus.
+            </p>
+            <p class="top-para pr-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam voluptatum impedit itaque soluta, harum voluptas ratione repudiandae, accusamus iusto ducimus facilis ipsam in praesentium quaerat fugit sed. Dicta, id consequatur? Maiores exercitationem, laudantium asperiores optio corporis consequuntur delectus reiciendis sapiente illum.
+            </p>   
+        </div>
+    </section>
+    
+    <!-- ---Services-Section--- -->
+    <section id="services-section">
+        <h2 class="top-second ser-main-h">Our Services</h2>
+        <div class="hr-line"></div>
+        <p class="top-para ser-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam voluptatum impedit itaque soluta, harum voluptas ratione repudiandae, accusamus iusto ducimus. Dicta, id consequatur? Maiores exercitationem, laudantium asperiores optio corporis consequuntur delectus reiciendis sapiente illum.
+        </p>   
+        <div class="our-services">
+            <div class="ser">
+                <div class="ser-logo">
+                    <i class="material-icons">plumbing</i>
+                </div>
+                <h3 class="ser-h">Plumbing</h3>
+                <p class="ser-para top-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab unde possimus ipsa quia.</p>
+            </div>
+            <div class="ser">
+                <div class="ser-logo">
+                    <i class="material-icons">water_damage</i>
+                </div>
+                <h3 class="ser-h">Boliers</h3>
+                <p class="ser-para top-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab unde possimus ipsa quia.</p>
+            </div>
+            <div class="ser">
+                <div class="ser-logo">
+                    <i class="material-icons">hvac</i>
+                </div>
+                <h3 class="ser-h">Heating</h3>
+                <p class="ser-para top-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab unde possimus ipsa quia.</p>
+            </div>
+            <div class="ser">
+                <div class="ser-logo">
+                    <i class="material-icons">bathroom</i>
+                </div>
+                <h3 class="ser-h">Bathrooms</h3>
+                <p class="ser-para top-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab unde possimus ipsa quia.</p>
+            </div>
+            <div class="ser">
+                <div class="ser-logo">
+                    <i class="material-icons">local_laundry_service</i>
+                </div>
+                <h3 class="ser-h">Washing</h3>
+                <p class="ser-para top-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab unde possimus ipsa quia.</p>
+            </div>
+            <div class="ser">
+                <div class="ser-logo">
+                    <i class="material-icons">handyman</i>
+                </div>
+                <h3 class="ser-h">Handyman</h3>
+                <p class="ser-para top-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab unde possimus ipsa quia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---More-Services--- -->
+    <section id="more-services">
+        <div class="ser-left">
+            <div class="ser-container">
+                <div class="ser-item" id="ser-1a" onclick="myFunction1()">
+                    <div class="ser-icon" id="ser-1">
+                        <i class="material-icons">plumbing</i>
+                    </div>
+                    <h3 class="item-h" id="h-1">Plumbing Services</h3>
+                    <div class="ser-empty" style="border-top: 1px solid darkblue;"></div>
+                </div>
+                <div class="ser-item ser-a" id="ser-1b" onclick="myFunction1()">
+                    <div class="ser-icon" id="ser-1">
+                        <i class="material-icons">plumbing</i>
+                    </div>
+                    <h3 class="item-h" id="h-1">Plumbing Services</h3>
+                    <div class="ser-empty" style="border-top: 1px solid darkblue;"></div>
+                </div>
+                <div class="ser-item" id="ser-2a" onclick="myFunction2()">
+                    <div class="ser-icon" id="ser-2">
+                        <i class="material-icons">engineering</i>
+                    </div>
+                    <h3 class="item-h" id="h-2">Mainteenance Services</h3>
+                    <div class="ser-empty"></div>
+                </div>
+                <div class="ser-item ser-a" id="ser-2b" onclick="myFunction2()">
+                    <div class="ser-icon" id="ser-2">
+                        <i class="material-icons">engineering</i>
+                    </div>
+                    <h3 class="item-h" id="h-2">Mainteenance Services</h3>
+                    <div class="ser-empty"></div>
+                </div>
+                <div class="ser-item" id="ser-3a" onclick="myFunction3()">
+                    <div class="ser-icon" id="ser-3">
+                        <i class="material-icons">brush</i>
+                    </div>
+                    <h3 class="item-h" id="h-3">Painting Services</h3>
+                    <div class="ser-empty"></div>
+                </div>
+                <div class="ser-item ser-a" id="ser-3b" onclick="myFunction3()">
+                    <div class="ser-icon" id="ser-3">
+                        <i class="material-icons">brush</i>
+                    </div>
+                    <h3 class="item-h" id="h-3">Painting Services</h3>
+                    <div class="ser-empty"></div>
+                </div>
+                <div class="ser-item" id="ser-4a" onclick="myFunction4()">
+                    <div class="ser-icon" id="ser-4">
+                        <i class="material-icons">electrical_services</i>
+                    </div>
+                    <h3 class="item-h" id="h-4">Electrical Services</h3>
+                    <div class="ser-empty"></div>
+                </div>
+                <div class="ser-item ser-a" id="ser-4b" onclick="myFunction4()">
+                    <div class="ser-icon" id="ser-4">
+                        <i class="material-icons">electrical_services</i>
+                    </div>
+                    <h3 class="item-h" id="h-4">Electrical Services</h3>
+                    <div class="ser-empty"></div>
+                </div>
+                <div class="ser-item" id="ser-5a" onclick="myFunction5()">
+                    <div class="ser-icon"id="ser-5">
+                        <i class="material-icons">handyman</i>
+                    </div>
+                    <h3 class="item-h" id="h-5">Handyman Services</h3>
+                    <div class="ser-empty"></div>
+                </div>
+                <div class="ser-item ser-a" id="ser-5b" onclick="myFunction5()">
+                    <div class="ser-icon"id="ser-5">
+                        <i class="material-icons">handyman</i>
+                    </div>
+                    <h3 class="item-h" id="h-5">Handyman Services</h3>
+                    <div class="ser-empty"></div>
+                </div>
+                <div class="ser-item" id="ser-6a" onclick="myFunction6()">
+                    <div class="ser-icon" id="ser-6">
+                        <i class="material-icons">home_repair_service</i>
+                    </div>
+                    <h3 class="item-h" id="h-6">Cerpentry Services</h3>
+                    <div class="ser-empty" style="border-bottom: 1px solid darkblue;"></div>
+                </div>
+                <div class="ser-item ser-a" id="ser-6b" onclick="myFunction6()">
+                    <div class="ser-icon" id="ser-6">
+                        <i class="material-icons">home_repair_service</i>
+                    </div>
+                    <h3 class="item-h" id="h-6">Cerpentry Services</h3>
+                    <div class="ser-empty" style="border-bottom: 1px solid darkblue;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="ser-right">
+            <div id="box-1" class="ser-box">
+                <div class="right-heading">
+                    <h2 class="top-second">Repair, Insulate, Install & More</h2>
+                    <p class="top-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus expedita at quis magnam repudiandae facilis a. Sunt ullam dicta omnis nulla deserunt minima nesciunt quae.
+                    </p>
+                </div>
+                <div class="right-items">
+                    <div class="right-icon">
+                        <i class="material-icons">plumbing</i>
+                        <h3 class="item-r-h">Drain Cleaning</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">plumbing</i>
+                        <h3 class="item-r-h">Sinks and Faucets</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">plumbing</i>
+                        <h3 class="item-r-h">Hot Water Dispenser</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">plumbing</i>
+                        <h3 class="item-r-h">Bathtubs and Showers</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">plumbing</i>
+                        <h3 class="item-r-h">Polybutylene Pipe Replacement</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">plumbing</i>
+                        <h3 class="item-r-h">Sump Pump & Sewage Ejector Pumps</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">plumbing</i>
+                        <h3 class="item-r-h">Water Heater Services</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="box-2" class="ser-box">
+                <div class="right-heading">
+                    <h2 class="top-second">Install, Grout, Patch & More</h2>
+                    <p class="top-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus expedita at quis magnam repudiandae facilis a. Sunt ullam dicta omnis nulla deserunt minima nesciunt quae.
+                    </p>
+                </div>
+                <div class="right-items">
+                    <div class="right-icon">
+                        <i class="material-icons">engineering</i>
+                        <h3 class="item-r-h">Bathtubs and Showers</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">engineering</i>
+                        <h3 class="item-r-h">Sinks and Faucets</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">engineering</i>
+                        <h3 class="item-r-h">Garbage Disposal Repair</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">engineering</i>
+                        <h3 class="item-r-h">Sump Pump & Sewage Ejector Pumps</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">engineering</i>
+                        <h3 class="item-r-h">Hot Water Dispenser</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">engineering</i>
+                        <h3 class="item-r-h">House Cleaning</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">engineering</i>
+                        <h3 class="item-r-h">Polybutylene Pipe Replacement</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="box-3" class="ser-box">
+                <div class="right-heading">
+                    <h2 class="top-second">Paint, Stain, Spray & More</h2>
+                    <p class="top-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus expedita at quis magnam repudiandae facilis a. Sunt ullam dicta omnis nulla deserunt minima nesciunt quae.
+                    </p>
+                </div>
+                <div class="right-items">
+                    <div class="right-icon">
+                        <i class="material-icons">brush</i>
+                        <h3 class="item-r-h">Sewer Repair</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">brush</i>
+                        <h3 class="item-r-h">Sinks and Faucets</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">brush</i>
+                        <h3 class="item-r-h">Hot Water Dispenser</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">brush</i>
+                        <h3 class="item-r-h">Sump Pump & Sewage Ejector Pumps</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">brush</i>
+                        <h3 class="item-r-h">House Cleaning</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">brush</i>
+                        <h3 class="item-r-h">Bathtubs and Showers</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">brush</i>
+                        <h3 class="item-r-h">Polybutylene Pipe Replacement</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="box-4" class="ser-box">
+                <div class="right-heading">
+                    <h2 class="top-second">Install, Repair, Replace & More</h2>
+                    <p class="top-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus expedita at quis magnam repudiandae facilis a. Sunt ullam dicta omnis nulla deserunt minima nesciunt quae.
+                    </p>
+                </div>
+                <div class="right-items">
+                    <div class="right-icon">
+                        <i class="material-icons">electrical_services</i>
+                        <h3 class="item-r-h">Polybutylene Pipe Replacement</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">electrical_services</i>
+                        <h3 class="item-r-h">Water Heater Services</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">electrical_services</i>
+                        <h3 class="item-r-h">Bathtubs and Showers</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">electrical_services</i>
+                        <h3 class="item-r-h">Drain Cleaning</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">electrical_services</i>
+                        <h3 class="item-r-h">Sump Pump & Sewage Ejector Pumps</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">electrical_services</i>
+                        <h3 class="item-r-h">Sinks and Faucets</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">electrical_services</i>
+                        <h3 class="item-r-h">Hot Water Dispenser</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="box-5" class="ser-box">
+                <div class="right-heading">
+                    <h2 class="top-second">Toilets, Drywall, Tile & More</h2>
+                    <p class="top-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus expedita at quis magnam repudiandae facilis a. Sunt ullam dicta omnis nulla deserunt minima nesciunt quae.
+                    </p>
+                </div>
+                <div class="right-items">
+                    <div class="right-icon">
+                        <i class="material-icons">handyman</i>
+                        <h3 class="item-r-h">Sump Pump & Sewage Ejector Pumps</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">handyman</i>
+                        <h3 class="item-r-h">Sinks and Faucets</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">handyman</i>
+                        <h3 class="item-r-h">Water Heater Services</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">handyman</i>
+                        <h3 class="item-r-h">Bathtubs and Showers</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">handyman</i>
+                        <h3 class="item-r-h">Polybutylene Pipe Replacement</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">handyman</i>
+                        <h3 class="item-r-h">Drain Cleaning</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">handyman</i>
+                        <h3 class="item-r-h">Hot Water Dispenser</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="box-6" class="ser-box">
+                <div class="right-heading">
+                    <h2 class="top-second">6 Repair, Insulate, Install & More</h2>
+                    <p class="top-para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus expedita at quis magnam repudiandae facilis a. Sunt ullam dicta omnis nulla deserunt minima nesciunt quae.
+                    </p>
+                </div>
+                <div class="right-items">
+                    <div class="right-icon">
+                        <i class="material-icons">home_repair_service</i>
+                        <h3 class="item-r-h">Polybutylene Pipe Replacement</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">home_repair_service</i>
+                        <h3 class="item-r-h">Sinks and Faucets</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">home_repair_service</i>
+                        <h3 class="item-r-h">Sump Pump & Sewage Ejector Pumps</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">home_repair_service</i>
+                        <h3 class="item-r-h">Drain Cleaning</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">home_repair_service</i>
+                        <h3 class="item-r-h">Bathtubs and Showers</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">home_repair_service</i>
+                        <h3 class="item-r-h">Water Heater Services</h3>
+                    </div>
+                    <div class="right-icon">
+                        <i class="material-icons">home_repair_service</i>
+                        <h3 class="item-r-h">Hot Water Dispenser</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---Projects-Section--- -->
+    <section id="projects-section">
+        <h2 class="top-second ser-main-h">Recent Projects</h2>
+        <div class="hr-line"></div>
+        <div class="projects">
+            <div class="p-image">
+                <img src="/Plumbing/bg1.jpg" alt="image">
+            </div>
+            <div class="p-image">
+                <img src="/Plumbing/bg2.jpg" alt="image">
+            </div>
+            <div class="p-image">
+                <img src="/Plumbing/p1.jpg" alt="image">
+            </div>
+            <div class="p-image">
+                <img src="/Plumbing/p2.jpg" alt="image">
+            </div>
+            <div class="p-image">
+                <img src="/Plumbing/p3.jpg" alt="image">
+            </div>
+            <div class="p-image">
+                <img src="/Plumbing/p4.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+
+    <!-- ---Price-Section--- -->
+    <section id="price-section">
+        <h2 class="top-second ser-main-h">Our Price</h2>
+        <div class="hr-line"></div>
+        <p class="top-para ser-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam voluptatum impedit itaque soluta, harum voluptas ratione repudiandae, accusamus iusto ducimus. Dicta, id consequatur? Maiores exercitationem, laudantium asperiores optio corporis consequuntur delectus reiciendis sapiente illum.
+        </p>
+        <div class="prices">
+            <div class="pri-1">
+                <div class="offer">
+                    <div class="offer-h">
+                        <i class="material-icons">attach_money</i>
+                        <h2>15</h2>
+                        <h4>OFF</h4>
+                    </div>
+                    <p>Plumbing Services</p>
+                    <p>Tune-Ups and Maintenance</p>
+                    <p class="pri-st">Water Drains Inspection</p>
+                    <p class="pri-st">Bathroom Fittings</p>
+                    <p class="pri-st">Handyman Service</p>
+                    <p class="pri-st">Boiler Installation</p>
+                    <div class="btn offer-b">Get Coupon</div>
+                    <div class="pri-plan">Standard Plan</div>
+                </div>
+                <div class="pri-empty"></div>
+            </div>
+            <div class="pri-1">
+                <div class="offer">
+                    <div class="offer-h">
+                        <i class="material-icons">attach_money</i>
+                        <h2>25</h2>
+                        <h4>OFF</h4>
+                    </div>
+                    <p>Plumbing Services</p>
+                    <p>Tune-Ups and Maintenance</p>
+                    <p>Water Drains Inspection</p>
+                    <p>Bathroom Fittings</p>
+                    <p class="pri-st">Handyman Service</p>
+                    <p class="pri-st">Boiler Installation</p>
+                    <div class="btn offer-b">Get Coupon</div>
+                    <div class="pri-plan">Ultimate Plan</div>
+                </div>
+                <div class="pri-empty"></div>
+            </div>
+            <div class="pri-1">
+                <div class="offer">
+                    <div class="offer-h">
+                        <i class="material-icons">attach_money</i>
+                        <h2>35</h2>
+                        <h4>OFF</h4>
+                    </div>
+                    <p>Plumbing Services</p>
+                    <p>Tune-Ups and Maintenance</p>
+                    <p>Water Drains Inspection</p>
+                    <p>Bathroom Fittings</p>
+                    <p>Handyman Service</p>
+                    <p>Boiler Installation</p>
+                    <div class="btn offer-b">Get Coupon</div>
+                    <div class="pri-plan">Platinum Plan</div>
+                </div>
+                <div class="pri-empty"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---Team-Section--- -->
+    <section id="team-section">
+        Our Team
+    </section>
+
+    <!-- ---Features-Section--- -->
+    <section id="features-section">
+        <h2 class="top-second ser-main-h">Our Features</h2>
+        <div class="hr-line f-hr" ></div>
+        <p class="top-para ser-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam voluptatum impedit itaque soluta, harum voluptas ratione repudiandae, accusamus iusto ducimus. Dicta, id consequatur? Maiores exercitationem, laudantium asperiores optio corporis consequuntur delectus reiciendis sapiente illum.
+        </p>
+        <div class="features">
+            <div class="features-item">
+                <div class="f-icon">
+                    <i class="material-icons">phone_in_talk</i>
+                </div>
+                <div class="f-item">
+                    <h2>24/7 Availability</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard</p>
+                </div>
+                <div class="f-arrow">
+                    <i class="material-icons">arrow_forward</i>
+                </div>
+            </div>
+            <div class="features-item">
+                <div class="f-icon">
+                    <i class="material-icons">savings</i>
+                </div>
+                <div class="f-item">
+                    <h2>Affordable Prices</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard</p>
+                </div>
+                <div class="f-arrow">
+                    <i class="material-icons">arrow_forward</i>
+                </div>
+            </div>
+            <div class="features-item">
+                <div class="f-icon">
+                    <i class="material-icons">local_offer</i>
+                </div>
+                <div class="f-item">
+                    <h2>Discount Coupons</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard</p>
+                </div>
+                <div class="f-arrow">
+                    <i class="material-icons">arrow_forward</i>
+                </div>
+            </div>
+            <div class="features-item">
+                <div class="f-icon">
+                    <i class="material-icons">money</i>
+                </div>
+                <div class="f-item">
+                    <h2>Financial Options</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard</p>
+                </div>
+                <div class="f-arrow">
+                    <i class="material-icons">arrow_forward</i>
+                </div>
+            </div>
+            <div class="features-item">
+                <div class="f-icon">
+                    <i class="material-icons">assignment</i>
+                </div>
+                <div class="f-item">
+                    <h2>Free Estimation</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard</p>
+                </div>
+                <div class="f-arrow">
+                    <i class="material-icons">arrow_forward</i>
+                </div>
+            </div>
+            <div class="features-item">
+                <div class="f-icon">
+                    <i class="material-icons">emoji_events</i>
+                </div>
+                <div class="f-item">
+                    <h2>Certified Plumbers</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard</p>
+                </div>
+                <div class="f-arrow">
+                    <i class="material-icons">arrow_forward</i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---News-Section--- -->
+    <section id="news-section">
+        <div class="n-heading">
+            <h2>Latest News</h2>
+            <div class="n-line"></div>
+        </div>
+        <div class="n-news">
+            <div class="news">
+                <div class="news-i">
+                    <img src="/Plumbing/p1.jpg" alt="image-1">
+                    <div class="news-top">
+                        <i class="material-icons">search</i>
+                        <i class="material-icons">link</i>
+                    </div>
+                </div>
+                <h4>July 8, 2021</h4>
+                <h3>Zenoci Mutare Gesre</h3>
+                <p class="top-para">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa autem, sapiente impedit sequi nostrum ullam....
+                </p>
+            </div>
+            <div class="news">
+                <div class="news-i">
+                    <img src="/Plumbing/p2.jpg" alt="image-1">
+                    <div class="news-top">
+                        <i class="material-icons">search</i>
+                        <i class="material-icons">link</i>
+                    </div>
+                </div>
+                <h4>July 7, 2021</h4>
+                <h3>Quaruk Abrub Rerum</h3>
+                <p class="top-para">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa autem, sapiente impedit sequi nostrum ullam....
+                </p>
+            </div>
+            <div class="news">
+                <div class="news-i">
+                    <img src="/Plumbing/p3.jpg" alt="image-1">
+                    <div class="news-top">
+                        <i class="material-icons">search</i>
+                        <i class="material-icons">link</i>
+                    </div>
+                </div>
+                <h4>July 9, 2021</h4>
+                <h3>Tuemin Quides Mivos</h3>
+                <p class="top-para">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa autem, sapiente impedit sequi nostrum ullam....
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---Client-Section--- -->
+    <section id="client-section">
+        <h2 class="top-second ser-main-h">What Clients Say</h2>
+        <div class="cl-hr"></div>
+        <div id="clients">
+            <div class="client">
+                <div class="client-say">
+                    <p class="top-para"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled <span><i class="material-icons" id="an-1">format_quote</i></span></p>
+                </div>
+                <div class="client-img">
+                    <img src="/Plumbing/c1.jpg" alt="client-1">
+                    <div class="client-name">
+                        <h4>Joleen Tabarez</h4>
+                        <p>Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="client">
+                <div class="client-say">
+                    <p class="top-para"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1200s, when an unknown printer took a galley of type and scrambled <span><i class="material-icons" id="an-2">format_quote</i></span></p>
+                </div>
+                <div class="client-img">
+                    <img src="/Plumbing/c2.jpg" alt="client-1">
+                    <div class="client-name">
+                        <h4>Chris Jones</h4>
+                        <p>Supervisor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="client">
+                <div class="client-say">
+                    <p class="top-para"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 2000s, when an unknown printer took a galley of type and scrambled <span><i class="material-icons" id="an-3">format_quote</i></span></p>
+                </div>
+                <div class="client-img">
+                    <img src="/Plumbing/c3.jpg" alt="client-1">
+                    <div class="client-name">
+                        <h4>Maria John</h4>
+                        <p>Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---More-Client--- -->
+    <section id="more-client">
+        <h2 class="top-second ser-main-h">Our Clients</h2>
+        <div class="hr-line"></div>
+        <p class="top-para ser-para">
+            Sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium
+        </p>
+        <div class="client-logo">
+            <div class="client-l" id="cl-1">
+                <a href="#">
+                    <img src="/Plumbing/client-logo-1.png" alt="client logo">
+                </a>
+            </div>
+            <div class="client-l" id="cl-2">
+                <a href="#">
+                    <img src="/Plumbing/client-logo-2.png" alt="client logo">
+                </a>
+            </div>
+            <div class="client-l" id="cl-3">
+                <a href="#">
+                    <img src="/Plumbing/client-logo-3.png" alt="client logo">
+                </a>
+            </div>
+            <div class="client-l" id="cl-4">
+                <a href="#">
+                    <img src="/Plumbing/client-logo-4.png" alt="client logo">
+                </a>
+            </div>
+            <div class="client-l" id="cl-5">
+                <a href="#">
+                    <img src="/Plumbing/client-logo-5.png" alt="client logo">
+                </a>
+            </div>
+            <div class="client-l" id="cl-6">
+                <a href="#">
+                    <img src="/Plumbing/client-logo-6.png" alt="client logo">
+                </a>
+            </div>
+            <div class="client-l" id="cl-7">
+                <a href="#">
+                    <img src="/Plumbing/client-logo-7.png" alt="client logo">
+                </a>
+            </div>
+            <div class="client-l" id="cl-8">
+                <a href="#">
+                    <img src="/Plumbing/client-logo-8.png" alt="client logo">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---Footer-Section--- -->
+    <footer id="footer-section">
+        <p>
+            Copyright © 2021 DEMO. All Rights Reserved.
+        </p>
+    </footer>
+</body>
+<script src="/js/index.js"></script>
+
+</html>
